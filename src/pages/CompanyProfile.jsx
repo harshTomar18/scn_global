@@ -16,18 +16,18 @@ const CompanyProfile = () => {
       {/* Hero Section */}
       <section className="page-hero">
         <div className="container">
-          <div className="hero-grid" style={{ minHeight: 'auto', paddingTop: '2rem' }}>
+          <div className="hero-grid" style={{ minHeight: 'auto', paddingTop: '1rem' }}>
             <div>
-              <span className="utility-label" style={{ marginBottom: '1rem', display: 'block' }}>SCN GLOBAL PVT. LTD. PROFILE</span>
-              <h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 4.2rem)', fontWeight: 900, marginBottom: '1.5rem', lineHeight: 0.9 }}>
+              <span className="utility-label" style={{ marginBottom: '0.75rem', display: 'block' }}>SCN GLOBAL PVT. LTD. PROFILE</span>
+              <h1 style={{ fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)', fontWeight: 700, marginBottom: '1rem', lineHeight: 1.1 }}>
                 21+ YEARS OF <span style={{ color: 'var(--color-accent)', fontStyle: 'italic' }}>excellence & innovation</span>
               </h1>
-              <p style={{ color: 'var(--color-text-muted)', fontSize: '1.25rem', lineHeight: 1.6 }}>
+              <p style={{ color: 'var(--color-text-muted)', fontSize: '1.1rem', lineHeight: 1.6 }}>
                 "At SCN Global, we’ve spent years developing a unique methodology that empowers individuals and organisations with the most critical skill for success." Redefining how organisations communicate, lead, recruit, and thrive across global markets.
               </p>
             </div>
 
-            <div className="luxury-img-wrapper" style={{ borderRadius: '24px', height: '380px' }}>
+            <div className="luxury-img-wrapper" style={{ borderRadius: '16px', height: '250px' }}>
               <img
                 src="https://images.unsplash.com/photo-1580785692841-9a2e08e6880e?ixlib=rb-4.1.0&w=1366&q=70&auto=format"
                 alt="SCN Global Profile"

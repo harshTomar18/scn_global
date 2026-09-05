@@ -145,18 +145,18 @@ const ComplianceManagement = () => {
       {/* Hero Section */}
       <section className="page-hero">
         <div className="container">
-          <div className="hero-grid" style={{ minHeight: 'auto', paddingTop: '2rem' }}>
+          <div className="hero-grid" style={{ minHeight: 'auto', paddingTop: '1rem' }}>
             <div>
-              <span className="utility-label" style={{ marginBottom: '1rem', display: 'block' }}>SCN GLOBAL COMPLIANCE ADVISORY</span>
-              <h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 4.2rem)', fontWeight: 900, marginBottom: '1.5rem', lineHeight: 0.9 }}>
+              <span className="utility-label" style={{ marginBottom: '0.75rem', display: 'block' }}>SCN GLOBAL COMPLIANCE ADVISORY</span>
+              <h1 style={{ fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)', fontWeight: 700, marginBottom: '1rem', lineHeight: 1.1 }}>
                 HR STATUTORY <span style={{ color: 'var(--color-accent)', fontStyle: 'italic' }}>compliance management</span>
               </h1>
-              <p style={{ color: 'var(--color-text-muted)', fontSize: '1.25rem', lineHeight: 1.6 }}>
+              <p style={{ color: 'var(--color-text-muted)', fontSize: '1.1rem', lineHeight: 1.6 }}>
                 Operating within the framework of employment laws is essential for responsible business. SCN Global protects your organization from financial penalties, litigation, and operational risks across all 28 states of India.
               </p>
             </div>
 
-            <div className="luxury-img-wrapper" style={{ borderRadius: '24px', height: '380px' }}>
+            <div className="luxury-img-wrapper" style={{ borderRadius: '16px', height: '250px' }}>
               <img
                 src="https://assets.zyrosite.com/YrDJ5VXJbXtRy9pq/3.3-YanyQJ9e7ptyL0Dk.png"
                 alt="Compliance Management"

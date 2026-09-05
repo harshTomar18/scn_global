@@ -27,18 +27,18 @@ const IndustrialStaffing = () => {
       {/* Hero Section */}
       <section className="page-hero">
         <div className="container">
-          <div className="hero-grid" style={{ minHeight: 'auto', paddingTop: '2rem' }}>
+          <div className="hero-grid" style={{ minHeight: 'auto', paddingTop: '1rem' }}>
             <div>
-              <span className="utility-label" style={{ marginBottom: '1rem', display: 'block' }}>SCN GLOBAL INDUSTRIAL STAFFING</span>
-              <h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 4.2rem)', fontWeight: 900, marginBottom: '1.5rem', lineHeight: 0.9 }}>
+              <span className="utility-label" style={{ marginBottom: '0.75rem', display: 'block' }}>SCN GLOBAL INDUSTRIAL STAFFING</span>
+              <h1 style={{ fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)', fontWeight: 700, marginBottom: '1rem', lineHeight: 1.1 }}>
                 SPECIALISED INDUSTRIAL & <span style={{ color: 'var(--color-accent)', fontStyle: 'italic' }}>manufacturing staffing</span>
               </h1>
-              <p style={{ color: 'var(--color-text-muted)', fontSize: '1.25rem', lineHeight: 1.6 }}>
+              <p style={{ color: 'var(--color-text-muted)', fontSize: '1.1rem', lineHeight: 1.6 }}>
                 Dependable, safety-trained, and skilled personnel for manufacturing, assembly, logistics, automotive, pharmaceuticals, and heavy engineering plants across India.
               </p>
             </div>
 
-            <div className="luxury-img-wrapper" style={{ borderRadius: '24px', height: '380px' }}>
+            <div className="luxury-img-wrapper" style={{ borderRadius: '16px', height: '250px' }}>
               <img
                 src="https://assets.zyrosite.com/YrDJ5VXJbXtRy9pq/claudio-schwarz-b5uxl-qegoe-unsplash-A0xjZEq7kvHpyyVb.jpg"
                 alt="Industrial Staffing"

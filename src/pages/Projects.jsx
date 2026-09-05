@@ -77,13 +77,13 @@ const Projects = () => {
       {/* Hero Section */}
       <section className="page-hero">
         <div className="container">
-          <span className="utility-label" style={{ marginBottom: '1.5rem', display: 'inline-block' }}>
+          <span className="utility-label" style={{ marginBottom: '0.75rem', display: 'inline-block' }}>
             SCN GLOBAL PVT. LTD. PORTFOLIO
           </span>
-          <h1 style={{ fontSize: 'clamp(2.5rem, 6vw, 4.8rem)', fontWeight: 900, marginBottom: '1.5rem', lineHeight: 0.9 }}>
+          <h1 style={{ fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)', fontWeight: 700, marginBottom: '1rem', lineHeight: 1.1 }}>
             PROJECTS & <span style={{ color: 'var(--color-accent)', fontStyle: 'italic' }}>case studies</span>
           </h1>
-          <p style={{ color: 'var(--color-text-muted)', fontSize: '1.25rem', maxWidth: '850px', lineHeight: 1.6 }}>
+          <p style={{ color: 'var(--color-text-muted)', fontSize: '1.1rem', maxWidth: '750px', lineHeight: 1.6 }}>
             Explore landmark recruitment drives, large-scale industrial staffing deployments, 100% tech-enabled payroll architectures, and statutory compliance engagements delivered by SCN Global Pvt. Ltd.
           </p>
         </div>

@@ -16,18 +16,18 @@ const StaffingSolution = () => {
       {/* Hero Section */}
       <section className="page-hero">
         <div className="container">
-          <div className="hero-grid" style={{ minHeight: 'auto', paddingTop: '2rem' }}>
+          <div className="hero-grid" style={{ minHeight: 'auto', paddingTop: '1rem' }}>
             <div>
-              <span className="utility-label" style={{ marginBottom: '1rem', display: 'block' }}>SCN GLOBAL STAFFING SOLUTIONS</span>
-              <h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 4.2rem)', fontWeight: 900, marginBottom: '1.5rem', lineHeight: 0.9 }}>
+              <span className="utility-label" style={{ marginBottom: '0.75rem', display: 'block' }}>SCN GLOBAL STAFFING SOLUTIONS</span>
+              <h1 style={{ fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)', fontWeight: 700, marginBottom: '1rem', lineHeight: 1.1 }}>
                 STRATEGIC STAFFING FOR A <span style={{ color: 'var(--color-accent)', fontStyle: 'italic' }}>dynamic workforce</span>
               </h1>
-              <p style={{ color: 'var(--color-text-muted)', fontSize: '1.25rem', lineHeight: 1.6 }}>
+              <p style={{ color: 'var(--color-text-muted)', fontSize: '1.1rem', lineHeight: 1.6 }}>
                 Delivering end-to-end staffing solutions tailored to the diverse needs of organisations across India. From temporary staffing and contract-based roles to permanent placements, we connect you with the right talent for every business requirement.
               </p>
             </div>
             
-            <div className="luxury-img-wrapper" style={{ borderRadius: '24px', height: '380px' }}>
+            <div className="luxury-img-wrapper" style={{ borderRadius: '16px', height: '250px' }}>
               <img
                 src="https://assets.zyrosite.com/YrDJ5VXJbXtRy9pq/scn-global-pvt.-ltd.-project-hiring-AR03OREKnpIE0ykk.jpg"
                 alt="SCN Global Staffing"
@@ -40,23 +40,23 @@ const StaffingSolution = () => {
       </section>
 
       {/* Main Content Section */}
-      <section className="section" style={{ padding: '5rem 0' }}>
+      <section className="section" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           
           {/* Why Staffing Matters */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '3rem', alignItems: 'center', marginBottom: '5rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2.5rem', alignItems: 'center', marginBottom: '3.5rem' }}>
             <div>
               <span className="utility-label" style={{ marginBottom: '0.5rem', display: 'block' }}>FOUNDATIONAL TO SUCCESS</span>
-              <h2 style={{ fontSize: '2.4rem', marginBottom: '1.25rem', color: 'var(--color-text)' }}>WHY STAFFING MATTERS</h2>
-              <p style={{ color: 'var(--color-text-muted)', fontSize: '1.1rem', lineHeight: 1.8, marginBottom: '1.25rem' }}>
+              <h2 style={{ fontSize: '1.8rem', marginBottom: '1rem', color: 'var(--color-text)' }}>WHY STAFFING MATTERS</h2>
+              <p style={{ color: 'var(--color-text-muted)', fontSize: '1rem', lineHeight: 1.7, marginBottom: '1rem' }}>
                 Effective staffing is foundational to organisational success. At SCN Global, we understand that placing the right individuals in the right roles not only improves productivity and workflow but also fosters higher job satisfaction and long-term employee engagement.
               </p>
-              <p style={{ color: 'var(--color-text-muted)', fontSize: '1.1rem', lineHeight: 1.8 }}>
+              <p style={{ color: 'var(--color-text-muted)', fontSize: '1rem', lineHeight: 1.7 }}>
                 We work closely with clients to anticipate workforce needs and bridge gaps between current capabilities and future goals. Through careful talent pool analysis and market demand forecasting, we help build an agile, competent, and aligned workforce.
               </p>
             </div>
 
-            <div className="luxury-img-wrapper" style={{ borderRadius: '20px', height: '360px' }}>
+            <div className="luxury-img-wrapper" style={{ borderRadius: '16px', height: '240px' }}>
               <img
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=800&auto=format&fit=crop"
                 alt="Workforce Collaboration"

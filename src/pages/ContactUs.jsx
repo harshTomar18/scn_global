@@ -39,18 +39,18 @@ const ContactUs = () => {
             {/* Hero Section */}
             <section className="page-hero">
                 <div className="container">
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '3.5rem', alignItems: 'center' }}>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2.5rem', alignItems: 'center' }}>
                         <div>
-                            <span className="utility-label" style={{ marginBottom: '1rem', display: 'block' }}>SCN GLOBAL CONTACTS</span>
-                            <h1 style={{ fontSize: 'clamp(2.5rem, 6vw, 4.5rem)', fontWeight: 900, marginBottom: '1.5rem', lineHeight: 0.9 }}>
+                            <span className="utility-label" style={{ marginBottom: '0.75rem', display: 'block' }}>SCN GLOBAL CONTACTS</span>
+                            <h1 style={{ fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)', fontWeight: 700, marginBottom: '1rem', lineHeight: 1.1 }}>
                                 GET IN TOUCH WITH <span style={{ color: 'var(--color-accent)', fontStyle: 'italic' }}>scn global</span>
                             </h1>
-                            <p style={{ color: 'var(--color-text-muted)', fontSize: '1.25rem', lineHeight: 1.6 }}>
+                            <p style={{ color: 'var(--color-text-muted)', fontSize: '1.1rem', lineHeight: 1.6 }}>
                                 Feel free to contact us with any questions or workforce concerns. Use the form below or email/call our team directly. We look forward to partnering with you.
                             </p>
                         </div>
 
-                        <div className="luxury-img-wrapper" style={{ borderRadius: '24px', height: '360px' }}>
+                        <div className="luxury-img-wrapper" style={{ borderRadius: '16px', height: '250px' }}>
                             <img
                                 src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800&auto=format&fit=crop"
                                 alt="SCN Global Corporate Office"

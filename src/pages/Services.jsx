@@ -75,20 +75,20 @@ const Services = () => {
       {/* Hero Section */}
       <section className="page-hero">
         <div className="container" style={{ textAlign: 'center' }}>
-          <span className="utility-label" style={{ marginBottom: '1rem', display: 'inline-block' }}>SCN GLOBAL SERVICES</span>
-          <h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 4.2rem)', fontWeight: 900, marginBottom: '1.5rem', lineHeight: 0.9 }}>
+          <span className="utility-label" style={{ marginBottom: '0.75rem', display: 'inline-block' }}>SCN GLOBAL SERVICES</span>
+          <h1 style={{ fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)', fontWeight: 700, marginBottom: '1rem', lineHeight: 1.1 }}>
             BEST SERVICES <span style={{ color: 'var(--color-accent)', fontStyle: 'italic' }}>scn global</span> OFFERS
           </h1>
-          <p style={{ color: 'var(--color-text-muted)', fontSize: '1.25rem', maxWidth: '800px', margin: '0 auto', lineHeight: 1.6 }}>
+          <p style={{ color: 'var(--color-text-muted)', fontSize: '1.1rem', maxWidth: '750px', margin: '0 auto', lineHeight: 1.6 }}>
             Backed by 21+ years of experience, SCN Global Pvt. Ltd. partners with organisations of all sizes—from emerging start-ups to Fortune 5000 leaders—to deliver impactful workforce solutions.
           </p>
         </div>
       </section>
 
       {/* Services Grid */}
-      <section className="section" style={{ padding: '5rem 0' }}>
+      <section className="section" style={{ padding: '3.5rem 0' }}>
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))', gap: '2.5rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
             {allServices.map(s => {
               const IconComponent = s.icon;
               return (
@@ -99,40 +99,40 @@ const Services = () => {
                   style={{
                     backgroundColor: 'var(--color-secondary-bg)',
                     border: '1px solid var(--color-border)',
-                    borderRadius: '20px',
-                    padding: '2rem',
+                    borderRadius: '16px',
+                    padding: '1.5rem',
                     display: 'flex',
                     flexDirection: 'column',
                     justifyContent: 'space-between'
                   }}
                 >
                   <div>
-                    {/* Image with Grayscale to Color Hover Effect & Projects-Style Centered Badge */}
-                    <div className="luxury-img-wrapper" style={{ height: '200px', marginBottom: '1.5rem' }}>
+                    {/* Compact Image Wrapper */}
+                    <div className="luxury-img-wrapper" style={{ height: '140px', marginBottom: '1.25rem' }}>
                       <img src={s.image} alt={s.title} className="luxury-img" />
                       <div className="luxury-hover-badge">EXPLORE</div>
                     </div>
 
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.85rem' }}>
                       <div style={{
-                        width: '48px',
-                        height: '48px',
-                        borderRadius: '12px',
+                        width: '40px',
+                        height: '40px',
+                        borderRadius: '10px',
                         background: 'rgba(228, 164, 189, 0.2)',
                         display: 'flex',
                         alignItems: 'center',
-                        justify: 'center',
+                        justifyContent: 'center',
                         color: 'var(--color-text)'
                       }}>
-                        <IconComponent size={24} />
+                        <IconComponent size={20} />
                       </div>
-                      <span className="utility-label" style={{ fontSize: '9px', background: 'var(--color-primary-bg)', padding: '4px 12px', borderRadius: '9999px', border: '1px solid var(--color-border)' }}>
+                      <span className="utility-label" style={{ fontSize: '8px', background: 'var(--color-primary-bg)', padding: '3px 10px', borderRadius: '9999px', border: '1px solid var(--color-border)' }}>
                         {s.badge}
                       </span>
                     </div>
 
-                    <h3 style={{ color: 'var(--color-text)', fontSize: '1.6rem', marginBottom: '0.75rem', fontWeight: 800 }}>{s.title}</h3>
-                    <p style={{ color: 'var(--color-text-muted)', fontSize: '0.98rem', lineHeight: 1.65, marginBottom: '1.75rem' }}>
+                    <h3 style={{ color: 'var(--color-text)', fontSize: '1.25rem', marginBottom: '0.5rem', fontWeight: 700 }}>{s.title}</h3>
+                    <p style={{ color: 'var(--color-text-muted)', fontSize: '0.92rem', lineHeight: 1.6, marginBottom: '1.25rem' }}>
                       {s.description}
                     </p>
                   </div>

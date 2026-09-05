@@ -32,13 +32,13 @@ const JobSeeker = () => {
       {/* Hero Section with Side-by-Side Image */}
       <section className="page-hero">
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '3.5rem', alignItems: 'center' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2.5rem', alignItems: 'center' }}>
             <div>
-              <span className="utility-label" style={{ marginBottom: '1rem', display: 'block' }}>SCN GLOBAL CANDIDATE PORTAL</span>
-              <h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 4.2rem)', fontWeight: 900, marginBottom: '1.5rem', lineHeight: 0.9 }}>
+              <span className="utility-label" style={{ marginBottom: '0.75rem', display: 'block' }}>SCN GLOBAL CANDIDATE PORTAL</span>
+              <h1 style={{ fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)', fontWeight: 700, marginBottom: '1rem', lineHeight: 1.1 }}>
                 CONNECT WITH YOUR <span style={{ color: 'var(--color-accent)', fontStyle: 'italic' }}>next career step</span>
               </h1>
-              <p style={{ color: 'var(--color-text-muted)', fontSize: '1.25rem', lineHeight: 1.6, marginBottom: '2rem' }}>
+              <p style={{ color: 'var(--color-text-muted)', fontSize: '1.1rem', lineHeight: 1.6, marginBottom: '1.5rem' }}>
                 "If you have any questions or would like more information about our services, feel free to contact us. We are here to help you communicate better." Submit your resume for top IT, manufacturing, banking, and corporate opportunities across India.
               </p>
               <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', marginBottom: '1.5rem' }}>
@@ -54,7 +54,7 @@ const JobSeeker = () => {
               </a>
             </div>
 
-            <div className="luxury-img-wrapper" style={{ borderRadius: '24px', height: '380px' }}>
+            <div className="luxury-img-wrapper" style={{ borderRadius: '16px', height: '250px' }}>
               <img
                 src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop"
                 alt="Candidate Registration"

@@ -16,18 +16,18 @@ const RecruitmentSolution = () => {
       {/* Hero Section */}
       <section className="page-hero">
         <div className="container">
-          <div className="hero-grid" style={{ minHeight: 'auto', paddingTop: '2rem' }}>
+          <div className="hero-grid" style={{ minHeight: 'auto', paddingTop: '1rem' }}>
             <div>
-              <span className="utility-label" style={{ marginBottom: '1rem', display: 'block' }}>SCN GLOBAL RECRUITMENT SOLUTIONS</span>
-              <h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 4.2rem)', fontWeight: 900, marginBottom: '1.5rem', lineHeight: 0.9 }}>
+              <span className="utility-label" style={{ marginBottom: '0.75rem', display: 'block' }}>SCN GLOBAL RECRUITMENT SOLUTIONS</span>
+              <h1 style={{ fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)', fontWeight: 700, marginBottom: '1rem', lineHeight: 1.1 }}>
                 PRECISION & SPEED IN <span style={{ color: 'var(--color-accent)', fontStyle: 'italic' }}>talent acquisition</span>
               </h1>
-              <p style={{ color: 'var(--color-text-muted)', fontSize: '1.25rem', lineHeight: 1.6 }}>
+              <p style={{ color: 'var(--color-text-muted)', fontSize: '1.1rem', lineHeight: 1.6 }}>
                 SCN Global Pvt. Ltd. offers a specialized, industry-aligned search methodology tailored to meet your unique hiring goals. From IT specialists to executive leadership, we deliver top-tier professionals PAN India.
               </p>
             </div>
 
-            <div className="luxury-img-wrapper" style={{ borderRadius: '24px', height: '380px' }}>
+            <div className="luxury-img-wrapper" style={{ borderRadius: '16px', height: '250px' }}>
               <img
                 src="https://assets.zyrosite.com/YrDJ5VXJbXtRy9pq/resume-genius-72d3z_lfrqa-unsplash-Y4LvBqKOpKfxkaZ8.jpg"
                 alt="Recruitment Solutions"
@@ -40,25 +40,25 @@ const RecruitmentSolution = () => {
       </section>
 
       {/* Main Content */}
-      <section className="section" style={{ padding: '5rem 0' }}>
+      <section className="section" style={{ padding: '3.5rem 0' }}>
         <div className="container">
 
           {/* Intro Overview */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '3rem', alignItems: 'center', marginBottom: '5rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2.5rem', alignItems: 'center', marginBottom: '3.5rem' }}>
             <div>
               <span className="utility-label" style={{ marginBottom: '0.5rem', display: 'block' }}>EXECUTIVE & IT SEARCH</span>
-              <h2 style={{ fontSize: '2.4rem', color: 'var(--color-text)', marginBottom: '1.25rem' }}>
+              <h2 style={{ fontSize: '1.8rem', color: 'var(--color-text)', marginBottom: '1rem' }}>
                 INDUSTRY-ALIGNED SEARCH METHODOLOGY
               </h2>
-              <p style={{ color: 'var(--color-text-muted)', fontSize: '1.1rem', lineHeight: 1.8, marginBottom: '1.25rem' }}>
+              <p style={{ color: 'var(--color-text-muted)', fontSize: '1rem', lineHeight: 1.7, marginBottom: '1rem' }}>
                 We evaluate candidates not only for their immediate technical skills and experience, but also for their knowledge depth, adaptability, cultural fit, and long-term leadership potential.
               </p>
-              <p style={{ color: 'var(--color-text-muted)', fontSize: '1.1rem', lineHeight: 1.8 }}>
+              <p style={{ color: 'var(--color-text-muted)', fontSize: '1rem', lineHeight: 1.7 }}>
                 Leveraging decades of cumulative recruitment expertise, internal candidate databases, advanced research tools, and extensive professional networks, SCN Global brings speed and precision to every hiring assignment.
               </p>
             </div>
 
-            <div className="luxury-img-wrapper" style={{ borderRadius: '20px', height: '360px' }}>
+            <div className="luxury-img-wrapper" style={{ borderRadius: '16px', height: '240px' }}>
               <img
                 src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop"
                 alt="Executive Search Vetting"
