@@ -1,0 +1,38 @@
+.feature-card {
+  background-color: var(--color-secondary-bg);
+  border: 1px solid var(--color-border);
+  padding: 2.5rem;
+  border-radius: 16px;
+  transition: var(--transition-bezier);
+  position: relative;
+}
+
+.feature-card:hover {
+  background-color: var(--color-accent);
+  transform: translateY(-6px);
+}
+
+.card-step-num {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: var(--color-accent);
+  line-height: 1;
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+}
+
+.feature-card:hover .card-step-num {
+  color: var(--color-text);
+}
+
+.training-card {
+  background: var(--color-primary-bg);
+  border: 1px solid var(--color-border);
+  padding: 2rem;
+  border-radius: 12px;
+  transition: var(--transition-fast);
+}
+
+.training-card:hover {
+  border-color: var(--color-accent);
+}
